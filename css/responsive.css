@@ -1,0 +1,157 @@
+@media (min-width: 576px) {
+    .container {
+      max-width: 90%;
+    }
+}
+@media (max-width:600px){
+    .grid-4{
+        grid-template-columns: 1fr !important;
+    }
+} 
+@media (min-width: 768px) {
+    .container {
+      max-width: 90%
+    }
+    
+}
+  
+@media (min-width: 992px) {
+    .header-desc{
+        padding-bottom: 1%;
+        padding-top: 2%;
+    }
+    .header-title h1{
+        margin: 2% 20% auto 20%;
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        font-family: 'Rubik', sans-serif;
+    }
+}
+@media (min-width: 1200px) {
+    .header-desc{
+        padding-bottom: 1%;
+        padding-top: 2%;
+    }
+    .header-title h1{
+        margin: 2% 20% auto 20%;
+        font-size: 3.8rem;
+        color: rgb(255, 255, 255);
+        font-family: 'Rubik', sans-serif;
+    }
+}
+
+@media(max-width: 576px){
+    .col-3, .col-4, .col-2{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        position: relative;
+        margin-bottom: 15px;
+    }
+    .header-desc{
+        padding-bottom: 1%;
+        padding-top: 2%;
+    }
+    .header-title h1{
+        margin: 2% auto ;
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        font-family: 'Rubik', sans-serif;
+    }
+    .navbar{
+        width: 100%;
+    }
+}
+@media(max-width: 776px){
+    .brand{
+        font-size: 1rem;
+    }
+    .subscribe input, .subscribe button{
+        font-size: 10px;
+        padding-left: 0px 1px;
+        font-weight: bold;
+    }
+    .header-title h1{
+        font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
+    }
+    video{
+        display: block;
+    }
+}
+@media (max-width: 991px){
+    .header-desc{
+        padding-bottom: 1%;
+        padding-top: 2%;
+    }
+    .header-title h1{
+        margin: 2% 20% auto 20%;
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        font-family: 'Rubik', sans-serif;
+    }
+    .col-3, .col-4, .col-2{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        position: relative;
+        margin-bottom: 15px;
+    }
+    .subscribe input, .subscribe button{
+        font-size: 10px;
+        padding-left: 0px 1px;
+        font-weight: bold;
+    }
+    .grid-4{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-aspect-ratio: 16/9){
+    video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    video{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width: 901px){
+    .header-video{
+        display: none;
+    }
+    .header-desc{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-top: 70px;
+        background-image: url(../img/background1.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        border: none;
+        padding: 0px;
+    }
+    .header-desc-container{
+        background: rgba(15, 15, 15, 0.893);
+        padding: 15px 0px 15px 0px;
+    }
+}
+@media(max-width: 992px){
+    .brand{
+        font-size: 1.2rem;
+    }
+    .menus .about, .menus .service{
+        font-size: 1rem;
+        
+    }
+    .navbar .container{
+        max-width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
